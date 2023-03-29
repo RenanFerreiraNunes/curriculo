@@ -29,7 +29,7 @@
 
 <body>
     <header class="sticky-top">
-        <nav class="navbar navbar-expand-sm p-2 navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm p-2 navbar-white bg-white shadow">
             <a class="navbar-brand mx-5" href="#">Curriculo</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-target">
                 <span class="navbar-toggler-icon"></span>
@@ -37,7 +37,6 @@
 
             <div class="collapse navbar-collapse" id="menu-target">
                 <ul class="navbar-nav ms-auto mx-5">
-                    <li class="nav-item"> <a class="nav-link" href="#sobre">SOBRE MIM</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#formacao">FORMAÇÃO</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#cursos">CURSO</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#habilidades">HABILIDADES</a></li>
@@ -57,10 +56,9 @@
         </div>
     </section>
 
-    <main>
+    <main class="container justify-content-center">
         <section id="sobre">
             <article>
-                <h1 class="display-3">Sobre Mim</h1>
                 <p>
                     Sou uma pessoa comunicativa, que sabe trabalhar em equipe e tenho 19 anos. Tenho habilidades em desenho
                     e artes visuais, sendo um profissional capacitado e dedicado em adquirir habilidades e conhecimentos
@@ -76,7 +74,7 @@
             <article>
                 <h1 class="display-3">Formação Acadêmica</h1>
                 <ul>
-                    <li>
+                    <li class="list-unstyled">
                         <h2>Escola Estadual Clorindo Burnier</h2>
                         <p>
                             Ensino médio completo.
@@ -90,7 +88,7 @@
             <article>
                 <h1 class="display-3">Experiências profissionais</h1>
                 <ul>
-                    <li>
+                    <li class="list-unstyled">
                         <h2>Bahamas centro de distribuição</h2>
                         <p>
                             <h4 class="d-inline-block">Área de atuação: </h4>
@@ -111,8 +109,8 @@
         <section id="cursos">
             <article>
                 <h1 class="display-3">Cursos</h1>
-                <ul>
-                    <li>
+                <ul id="cursos-container">
+                    <li class="list-unstyled">
                         <h2>Senac (Juiz de Fora)</h2>
                         <p>
                             Técnico em informática. Noite.
@@ -124,7 +122,7 @@
                             Conclusão em 09/2023
                         </p>
                     </li>
-                    <li>
+                    <li class="list-unstyled">
                         <h2>Senac (Juiz de Fora)</h2>
                         <p>
                             Aprendiz em processos administrativos
@@ -175,18 +173,13 @@
         <div>
         </div>
         <div>
-            <p>Emails</p>
+            <p>Emails: </p>
             <ul>
                 <li>renan.nunes1904@gmail.com</li>
                 <li>renanferreiranunes1904@gmail.com</li>
             </ul>
         </div>
     </footer>
-
-
-
-
-
 
     <!--Biblioteca JS e POPPER ficam no final do seu arquivo HTML-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

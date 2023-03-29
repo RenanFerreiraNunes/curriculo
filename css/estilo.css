@@ -10,7 +10,7 @@ html {
 
 /*inicio de sobre mim*/
 #banner {
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(214, 214, 214);
     width: 100%;
     height: auto;
 }
@@ -36,6 +36,48 @@ html {
     align-items: center;
 }
 
+#cursos-container {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    flex-wrap: wrap;
+}
+
+#container-habilidade {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    flex-wrap: wrap;
+}
+
+main p {
+    font-size: 1.3rem;
+}
+
+main section {
+    margin: 8% !important;
+}
+
+main ul li {
+    font-size: 1.3rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 5% !important;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    padding: 3% !important;
+    flex-wrap: wrap;
+    background-color: rgb(214, 214, 214);
+}
+
 @media (max-width: 768px) {
     #portrait {
         width: 80%;
@@ -46,5 +88,30 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
-}
+
+    #conteudo-banner-2 h1 {
+        font-size: 2rem;
+    }
+
+    #conteudo-banner-2 p {
+        font-size: 1rem;
+    }
+
+    main p {
+        font-size: .9rem;
+    }
+
+    main #sobre article p {
+        font-size: .8rem;
+    }
+    
+    main ul li {
+        font-size: .9rem;
+    }
+
+    footer {
+        font-size: .9rem;
+    }
+} 
